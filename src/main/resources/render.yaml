@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: project-web-backend
+    env: java
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: 'jdbc:mysql://sql12.freesqldatabase.com:3306/sql12706556'
+      - key: DATABASE_USERNAME
+        value: 'sql12706556'
+      - key: DATABASE_PASSWORD
+        value: 'KTq6M7bvS5'
